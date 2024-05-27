@@ -1,0 +1,12 @@
+
+defaults:
+  - config_schema
+  - task: mnist_classificaiton
+  - data_module: mnist
+  - trainer: trainer_schema
+   
+
+# defaults:
+#   - task: cifar10_classification
+#   - data_module: cifar10
+#   - trainer: cpu
